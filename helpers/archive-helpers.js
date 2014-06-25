@@ -12,7 +12,8 @@ var _ = require('underscore');
 exports.paths = {
   'siteAssets' : path.join(__dirname, '../web/public'),
   'archivedSites' : path.join(__dirname, '../archives/sites'),
-  'list' : path.join(__dirname, '../archives/sites.txt')
+  'list' : path.join(__dirname, '../archives/sites.txt'),
+  'testlist': '/Users/student/Code/xianhui/2014-06-web-historian/archives/sites.txt'
 };
 
 // Used for stubbing paths for jasmine tests, do not modify
